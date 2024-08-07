@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M62BWHFLCF"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Default consent mode V2 settings
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  });
+
+  // GA Measurement ID
+  gtag('config', 'G-M62BWHFLCF');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="msvalidate.01" content="90B958A4BBA78F49F2251ABF69136363" />	
+    <meta name="keywords" content="British Tours, Jane Austen, Jane Austen tours, Jane Austen tours from London,
+	Hidden Britain, Hampshire guided tours, Expert guide, Guided tour, History and heritage, Hampshire history, 
+	Hampshire heritage, Tripadvisor, Tripadvisor Award, Tripadvisor Hall of Fame, Secure bookings, 
+	Tour reservations, Tour availability, Tour packages, Tour booking, Personal bookings, 
+	Booking enquiries, Instagram, Facebook, Twitter" />
+    <meta name="description" content="Ready to explore Jane Austen's world firsthand? Book your 
+	guided walking tour through the Hampshire countryside, where you'll walk in the footsteps of 
+	this iconic English novelist. Secure your spot for an immersive literary journey filled with 
+	captivating landscapes and historical intrigue." />
+    <meta name="author" content="ComDotty Web Services - Copyright Hidden Britain Tours March 2024">
+	
+    <title>Jane Austen Tours | Hidden Britain Tours | Book Your Jane Austen Tour</title>
+	
+	<!-- Bootstrap 4 CDN hosting -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Font-Awesome 6.5.2 Fonts -->	
+	<link rel="stylesheet" href="../fa6/css/all.min.css">
+	<!-- Cookie Consent 3.0.0 CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">	
+    <!-- Custom Fonts -->
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" as="style"> 
+	<!-- Bootstrap Validation 0.5.0 CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css">
+    <!-- HBT Custom CSS -->
+    <link href="../css/hbt.css" rel="stylesheet" type="text/css" />
+	<!-- datepicker support css file -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via f-->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<!-- datepicker support css overrides for HBT theme -->
+<style>
+.datepicker table {
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.datepicker table tr td,
+.datepicker table tr th {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  color: #4e4e4e;
+}
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td.focused {
+  background: #ccffcc;
+  cursor: pointer;
+}
+
+.datepicker table tr td.old,
+.datepicker table tr td.new {
+  color: #a9a9a9;
+}
+
+.datepicker table tr td.today {
+  color: #FFFFFF;
+  background-color: #36512d;
+  border-color: #ccffcc;
+}
+
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:active:focus {
+  color: #000000;
+  background-color: #ccffcc;
+  border-color: #36512d;
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.open > .dropdown-toggle.datepicker table tr td.active,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted {
+  color: #000000;
+  background-color: #ccffcc;
+  border-color: #36512d;
+}
+
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:hover,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.highlighted.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted.focus {
+  color: #000000;
+  background-color: #ccffcc;
+  border-color: #36512d;
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.open > .dropdown-toggle.datepicker table tr td.active,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted {
+  color: #000000;
+  background-color: #ccffcc;
+  border-color: #36512d;
+}
+
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active:hover,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:hover,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active:focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.highlighted.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.focus,
+.open > .dropdown-toggle.datepicker table tr td.active.highlighted.focus {
+  color: #000000;
+  background-color: #ccffcc;
+  border-color: #36512d;
+}
+
+.datepicker .datepicker-switch {
+  width: 145px;
+}
+
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background: #ccffcc;
+}
+
+</style>
+	
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#ffffff;">
+  <a class="navbar-brand" href="../index.asp" style="color: #36512d;">hidden britain tours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto small mb-2 mb-md-0 ulfix" style="padding: 10px 20px 5px;">
+            <li class="nav-item">
+                <a class="mail-link" style="color: #36512d; padding: 10px 20px 5px;" href="mailto:info@hiddenbritaintours.co.uk"><i class="fa-solid fa-envelope fa-fw spacer footercopy" aria-hidden="true"></i>&nbsp;info@hiddenbritaintours.co.uk</a>
+            </li>
+            <li class="nav-item">
+                <a class="non-link" style="color: #36512d; text-decoration: none; padding: 10px 20px 5px;" href="#"><i class="fa-solid fa-phone-square fa-fw spacer" aria-hidden="true"></i>&nbsp;+44(0)1256 814222</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto small mb-2 mb-md-0 ulfix" style="padding: 15px;">
+            <li class="dropdown nav-item active">
+                <a class="dropdown-toggle nav-link py-1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #36512d; padding: 15px 15px 5px;" href="#">tour &amp; more</a>
+					<ul class="dropdown-menu">
+						<li><a href="ja.html">jane austen tour</a></li>
+						<div class="dropdown-divider" style="border-color: #36512d!important;"></div>
+						<li><a href="news.html">whats' new</a></li>							
+						<li><a href="instagram.html">instagram gallery</a></li>						
+						<li><a href="learnmore.html">find out more</a></li>												
+					</ul>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link py-1" style="color: #36512d; padding: 15px 15px 5px;" href="bookings.html">bookings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link py-1" style="color: #36512d; padding: 15px 15px 5px;" href="links.html">links</a>
+            </li>
+           <li class="dropdown">
+               <a class="dropdown-toggle nav-link py-1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #36512d; padding: 15px 15px 5px;" href="#">legal</a>
+				<ul class="dropdown-menu">
+					<li><a href="tandc.html">terms and conditions</a></li>
+					<li><a href="privacy.html">privacy policy</a></li>						
+				</ul>
+           </li>
+            <li class="nav-item">
+                <a class="nav-link py-1" style="color: #36512d; padding: 15px 15px 5px;" href="contact.html">contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="content-container-copy">
+	<div class="row">
+		<div class="col-lg-8 col-md-6 col-sm-12" style="margin-top: 30px;">
+		<h1 class="contenttitlehdr" style="white-space: nowrap;">Bookings</h1>		
+		<h2 class="contentsubhdr">How To Book</h2><br />				
+		<p class="contentcopy">
+		We offer our &quot;Jane Austen The Dancing Years&quot; Tour all year round, every day of the week, subject to availability.
+		</p>
+        <p class="contentsubhdr">Current Prices</p>
+		<p class="contentcopy">
+		The prices shown are for our standard Jane Austen tour in 2023/2024. 
+		</p>        
+		<p class="contentsubhdr" style="font-size: 1.2em;">Jane Austen The Dancing Years - Luxury Driven Tour</p>
+        <table id="price-list" border="1" frame="void" cellspacing="5" cellpadding="5" rules="all" style="color: #36512d; font-size: 1.1em;">
+             <tr style="background-color: #ccffcc;">
+                 <td colspan="2" class="price-title" style="text-align: left;">
+                     Number in Party - 1 to 5 people
+                 </td>
+             </tr>
+             <tr>
+                 <td class="price-title" style="background-color: #ccffcc; text-align: left;">
+                     Full-Day
+                 </td>
+                 <td class="price-title">
+                     &pound;600.00
+                 </td>
+             </tr>
+             <tr>
+                 <td class="price-title" style="background-color: #ccffcc; text-align: left;">
+                     Half-Day
+                 </td>
+                 <td class="price-title">
+                     &pound;450.00
+                 </td>
+             </tr>
+        </table>
+        <p class="contentcopy">
+             <em>Fees based on comparator guide rates for SE England.</em>
+        </p>
+        <p class="contentcopy">
+             <em>(Additional fuel surcharge for pick-ups from outside tour area.)</em>
+        </p>
+		<ul class="contentcopy">
+			<li>Prices do not include lunch.</li>
+			<li>Fee excludes museum and house entrance.</li>
+			<li>Admission to <a class="inline-link" href="https://www.jane-austens-house-museum.org.uk/" target="_blank" rel="nofollow noopener">
+			 Jane Austen's House Museum</a> is discounted.</li>
+		</ul>									
+		 <p class="contentcopy">
+		 	If you would like to enquire about dates and spaces on our Jane Austen tour or get a quote for a larger group 
+			please contact us.
+		</p>
+        <p class="contentcopy" style="font-style: italic;">
+		 	(Fields marked with <span style="color: red;">*</span> are required.)
+		</p>
+		
+		<!-- New Contact Form Here -->
+		<form action="../mail/cdosys.asp" method="post" id="mailform" class="form-horizontal">
+					
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-lg-push-1">
+								<div class="input-group mb-3">
+									<div class="input-group-text" style="background-color: #ccffcc; color: #36512d;"><span class="far fa-user-circle fa-fw" aria-hidden="true"></span></div>
+									<input type="text" class="form-control" name="frmname" aria-label="Your Name" placeholder="Your Name">&nbsp;&nbsp;<span style="color: red;">*</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-lg-push-1">
+								<div class="input-group mb-3">
+									<div class="input-group-text" style="background-color: #ccffcc; color: #36512d;"><span class="fas fa-at fa-fw" aria-hidden="true"></span></div>
+									<input type="text" class="form-control" name="frmemail" aria-label="E-mail Address" placeholder="E-mail Address">&nbsp;&nbsp;<span style="color: red;">*</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-lg-push-1">
+								<div class="input-group mb-3">
+									<div class="input-group-text" style="background-color: #ccffcc; color: #36512d;"><span class="fas fa-user-friends fa-fw" aria-hidden="true"></span></div>
+									<input type="text" class="form-control" name="frmnumber" aria-label="Number In Party" placeholder="Number In Party">&nbsp;&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-lg-push-1">
+								<div class="input-group mb-3">
+									<div class="input-group-text" style="background-color: #ccffcc; color: #36512d;"><span class="fas fa-calendar fa-fw" aria-hidden="true"></span></div>
+									<input type="text" class="form-control" name="frmdate" aria-label="Preferred Date" placeholder="Preferred Date">&nbsp;&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+												
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-lg-push-1">
+								<div class="input-group mb-3">
+									<div class="input-group-text" style="background-color: #ccffcc; color: #36512d;"><span class="fas fa-pencil-alt fa-fw" aria-hidden="true"></span></div>
+									<textarea class="form-control" rows="5" cols="25" name="frmcomments" aria-label="What would you like to know?" placeholder="What would you like to know?"></textarea>&nbsp;<span style="color: red;">*</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-xs-push-1 text-vertical-center">
+                                    <div class="checkbox pagecopy">
+                                        <input type="checkbox" name="frmacceptterms" aria-label="I Accept Your Terms, Conditions And Privacy Policy">&nbsp;<span class="contentcopy">I agree to your</span>&nbsp;<a href="tandc.html" class="footer-mail-link" style="color: #36512d;" target="_blank">terms, conditions</a>&nbsp;<span class="contentcopy">and</span>&nbsp;<a href="privacy.html" class="footer-mail-link" style="color: #36512d;" target="_blank">privacy policy</a><span class="contentcopy">.</span>&nbsp;<span style="color: red;">*</span></span><br />
+										<span class="contentcopy" style="font-style: italic;">(Pages open in a new tab.)</span>
+                                    </div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="col-lg-11 col-md-12 col-sm-12 col-xs-push-1 text-vertical-center">
+								<button type="submit" class="btn btn-contact-transparent btn-lg">Send<span style="margin-left: 10px;" class="fas fa-paper-plane fa-fw"></span></button>
+							</div>
+						</div>
+						
+					</form>
+		<!-- End New Contact Form -->
+		
+        <p class="contentsubhdr">Getting Here</p>
+		<p class="contentcopy">
+		<strong>Train:</strong> A fast train from London Waterloo takes around 45 mins. Check the <a class="inline-link" href="https://www.nationalrail.co.uk" target="_blank" rel="nofollow noopener">National Rail</a> 
+		website for times and prices. Basingstoke is also easy to get to by train from Winchester (15 mins), Oxford (50 mins), Salisbury (40 mins) and Southampton (30 mins). From Bath change 
+		trains at Reading. 
+		</p>
+		<p class="contentcopy">
+		<strong>Car/Uber/Taxi:</strong> If you are staying nearby, we can usually meet you at your accommodation and drop you back at the end of the day. If you are driving yourself, we can usually arrange 
+		for you to park close to our office. If you are coming direct from London Heathrow it is best to book a cab and it will take around 1 hour depending on traffic. 
+		</p>
+        <p class="contentsubhdr">How to pay</p>
+		<p class="contentcopy">
+		We accept cash and most major credit and debit cards. Any balance will be payable on the day of your tour. 
+		We also accept BACS payments from invoiced clients.   
+		</p>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 text-center" style="margin-top: 45px">
+			<img src="../res/content/bookings.jpg" alt="" width="405" border="0" style="max-width: 100%; height: auto; border: 1px solid #36512d;"><br /><br/>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-md-12 col-sm-12" style="margin: auto;">
+			<!-- content -->
+				<div class="footerimg">			
+				<img src="../res/newhbtlogo.webp" alt="" width="157" height="100" border="0">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-12 col-sm-12">
+			<!-- content -->
+				<div class="footercontent">
+				<span class="footerhdr">menu</span><br/>
+					<a class="footer-nav-link" style="color: #36512d;" href="ja.html">jane austen tour</a><br />
+					<a class="footer-nav-link" style="color: #36512d;" href="bookings.html">bookings</a><br />
+					<a class="footer-nav-link" style="color: #36512d;" href="links.html">links</a><br />
+					<a class="footer-nav-link" style="color: #36512d;" href="contact.html">contact</a><br />
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-12 col-sm-12">
+			<!-- content -->
+				<div class="footercontent">
+					<span class="footerhdr">follow us</span>
+					<div class="footercontent" style="padding-bottom: 10px;">
+						<a href="https://www.instagram.com/janeaustentours/" target="_blank"><img src="../res/igicon.webp" width="32" height="32" vspace="5" border="0" alt="Instagram | JaneAustenTours"></a>
+						<a href="https://www.facebook.com/ToursJane/" target="_blank"><img src="../res/fbicon.webp" width="32" height="32" vspace="5" hspace="10" border="0" alt="Facebook | ToursJane"></a>
+						<a href="https://twitter.com/toursjane" target="_blank"><img src="../res/xicon.webp" width="32" height="32" vspace="5" border="0" alt="X | ToursJane"></a>
+					</div>
+	                <a class="footer-mail-link" style="color: #36512d;" href="mailto:info@hiddenbritaintours.co.uk"><i class="fa-solid fa-envelope fa-fw spacer footercopy" aria-hidden="true"></i>&nbsp;info@hiddenbritaintours.co.uk</a><br />
+	                <a class="footer-non-link" style="color: #36512d; text-decoration: none;" href="#"><i class="fa-solid fa-phone-square fa-fw spacer" aria-hidden="true"></i>&nbsp;+44(0)1256 814222</a>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-12 col-sm-12" style="margin: auto;">
+			<!-- content -->
+				<div class="footerimg">			
+				<a target="_blank" href="http://www.tripadvisor.co.uk/Attraction_Review-g187054-d1178265-Reviews-Hidden_Britain_Tours-Basingstoke_Hampshire_England.html">
+				<img src="../res/TA2019hof.webp" alt="TripAdvisor" class="widCOEImg" width="149" height="140" />
+				</a>
+				</div>
+			</div>
+		<!-- /. row -->
+		</div>
+		<div class="row" style="border: 3px solid #ffffff;">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<a class="small-non-link" style="color: #36512d; text-decoration: none;" href="#">All content and images <i class="far fa-copyright fa-fw"></i></a>&nbsp;<a class="small-footer-link" style="color: #36512d;" href="http://www.hiddenbritaintours.co.uk" target="_self">Hidden Britain Tours</a>												
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<a class="small-non-link" style="color: #36512d; text-decoration: none;" href="#">Designed by</a>&nbsp;<a class="small-footer-link" style="color: #36512d;" href="http://comdottywebservices.somee.com/" target="_blank">ComDotty Web Services</a>												
+				</div>
+		<!-- /. row -->
+		</div>
+	<!-- /. container -->
+	</div>
+<!-- /. Footer -->
+</footer>
+
+	<!-- Bootstrap .js CDN Hosting -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Datepicker Javascript Library -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+	<!-- Bootstrap Validation JavaScript library -->
+	<script async defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+	<!-- Local hosted custom Form Validation JavaScript library -->
+	<script async defer src="../js/validate-me.js"></script>
+
+	<!-- Datepicker code block -->
+	<script>
+    $(document).ready(function(){
+      var date_input=$('input[name="frmdate"]'); //our date input has the name "frmdate"
+      var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+      var options={
+        format: 'dd/mm/yyyy',
+        todayHighlight: true,
+		startDate: truncateDate(new Date()),
+        container: container,
+        autoclose: true,
+      };
+      date_input.datepicker(options);
+    });
+	
+  	function truncateDate(date) {
+  		   return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+		   }
+	</script>
+
+	<!-- CookieConsent V3 -->
+<script type="module" src="../js/cookieconsent-config.js"></script>
+	
+</body>
+</html>

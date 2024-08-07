@@ -1,0 +1,431 @@
+/*
+ * Start Hidden Britain Tours Custom CSS3 File (http://www.hiddenbritaintours.co.uk/)
+ * Copyright 2019 - ComDotty Web Services
+ * To be used in conjunction with Bootstrap 4.0.0 css core
+ */
+
+/* Global Styles */
+html {
+    width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #ffffff;
+	position: relative;
+	margin-top: 95px;
+    padding: 0px;
+	height: 100vh;
+    font-family: "Calibri", "Open Sans", sans-serif;
+
+.brochure-body {
+	background-color: #ffffff;
+	position: relative;
+	margin-top: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+	height: 100vh;
+    font-family: "Calibri", "Open Sans", sans-serif;
+}
+
+/* Bootstrap Navbar Customisation */
+.navbar {
+	min-height: 75px;
+	z-index: 1;
+}
+
+.navbar-brand {
+	padding: 0 10px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 2.7em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar-toggle {
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 23px;
+	padding: 9px 10px !important;
+}
+
+/* media breakpoints and settings */
+@media all and (min-width: 2200px) {
+	.content-container-copy {
+		margin: 10px 500px!important;
+	}
+}
+
+@media all and (min-width: 1980px) and (max-width: 2199px) {
+	.content-container-copy {
+		margin: 10px 400px!important;
+	}
+}
+
+
+@media all and (min-width: 1700px) and (max-width: 1979px) {
+	.content-container-copy {
+		margin: 10px 250px!important;
+	}
+}
+
+@media all and (min-width: 1600px) and (max-width: 1699px) {
+	.content-container-copy {
+		margin: 10px 190px!important;
+	}
+}
+
+@media all and (min-width: 1460px) and (max-width: 1599px) {
+	.content-container-copy {
+		margin: 10px 140px!important;
+	}
+}
+
+@media all and (min-width: 1310px) and (max-width: 1459px) {
+	.content-container-copy {
+		margin: 10px 60px!important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.footercontent {
+		padding-top: 10px;
+		text-align: center!important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding-top: 26.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+		list-style: none;
+		z-index: 1;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	.navbar-brand {
+		font-size: 1.8em;
+		padding: 0 2px;
+	}
+    .brochure-titlehdr{font-size: 3.0em;}
+}
+
+@media screen and (max-width: 575px) {
+	.strapline {
+		font-size: 1.8em!important;
+	}
+	.contenttitlehdr{font-size: 1.3em!important;}
+	.contenthdr {font-size: 1.0em!important;}
+	.contentsubhdr {font-size: 0.9em!important;}
+	.linkpg-link {font-size: 0.9em!important;}
+}
+
+@media screen and (max-width: 460px) {
+	.navbar-brand {
+		font-size: 1.0em;
+		padding: 0 2px;
+	}
+	.strapline {
+		font-size: 1.3em!important;
+	}
+	.contenttitlehdr{font-size: 1.2em!important;}
+	.contenthdr {font-size: 0.9em!important;}
+	.contentsubhdr {font-size: 0.8em!important;}
+	.linkpg-link {font-size: 0.8em!important;}
+}
+
+@media screen and (max-width: 330px) {
+	.strapline {
+		font-size: 0.9em!important;
+	}
+	.contenttitlehdr{font-size: 1.0em!important;}
+	.contenthdr {font-size: 0.8em!important;}
+	.contentsubhdr {font-size: 0.8em!important;}	
+	.linkpg-link {font-size: 0.8em!important;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+    .brochure-titlehdr{font-size: 4.0em!important;}
+}
+
+@media screen and (min-width: 676px) and (max-width: 1023px) {
+    .brochure-titlehdr{font-size: 3.5em!important;}
+}
+
+@media screen and (max-width: 675px) {
+    .brochure-titlehdr{font-size: 3.0em!important;}
+}
+
+@media screen and (max-width: 375px) {
+    .brochure-titlehdr{font-size: 2.0em!important;}
+}
+
+/* Bootstrap Navbar Links Customisation */
+.nav-link {
+	font-size: 1.3em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.mail-link {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.non-link {
+	font-size: 1.2em;
+	font-weight: 400;
+	cursor: default;
+}
+
+/* Bootstrap Navbar Dropdown Menu Customisation */
+.navbar .navbar-nav .dropdown .dropdown-menu {
+	background-color: rgba(255, 255, 255, 0.9)!important;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+/* errant li bullet fix for MS Edge/IE */
+.ulfix { 
+	padding: 0; 
+	margin: 0; 
+	color: rgba(255, 255, 255, 0); 
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li {
+	list-style: none;
+	padding: 2px 5px ;
+	white-space: nowrap;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a {
+	font-size: 1.0em;
+	text-transform: uppercase;
+	color: #36512d!important;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
+	text-decoration: none;
+}
+
+/* page content customisatiom */
+.content-container {
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.content-container-copy {
+	position: relative;
+	text-align: justify;
+	margin: 10px 30px;
+  	color: white;
+}
+
+/* titles and sub-titles */
+.contenttitlehdr {
+	font-size: 1.8em;
+    padding-bottom: 10px;
+	font-weight: 600;
+	text-align: left;
+	color: #36512d!important;
+}
+
+.brochure-titlehdr {
+	font-size: 4.0em;
+	font-weight: 600;
+	text-align: center;
+	color: #36512d!important;
+}
+
+.contenthdr {
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: left;
+	color: #36512d!important;
+}
+
+.contentsubhdr {
+	font-size: 1.4em;
+	font-weight: 600;
+	text-align: left;
+	color: #36512d!important;
+}
+
+/* copy and image settings */
+.contentcopy {
+	font-size: 1.0em;
+	color: #4e4e4e!important;
+}
+
+.sourcecopy {
+    text-align: right;
+	font-size: 1.0em;
+    font-style: italic;
+	color: #4e4e4e!important;
+}
+
+/*.brochure-margins {
+    margin: 15px 150px;
+}*/
+
+.brochure-contentcopy {
+	font-size: 1.2em;
+    text-align: justify;
+	color: #36512d!important;
+}
+
+.brochure-contentfooter {
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: center;
+	color: #36512d!important;
+}
+
+.pglink {
+	text-align: right;
+}
+
+.inline-link {
+	font-size: 1.0em;
+	color: #36512d!important;
+	font-weight: 600;
+}
+
+.cta-link {
+	font-size: 1.8em;
+	color: #36512d!important;
+	font-weight: 600;
+}
+
+.linkpg-link {
+	font-size: 1.0em;
+	color: #36512d!important;
+	font-weight: 600;
+}
+
+.img-container {
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.brochureimg-container {
+	position: relative;
+  	text-align: center;
+  	/*color: white;*/
+}
+
+.img-caption {
+   font-size: 0.8em;
+   color: #36512d!important;
+   text-align: center;
+}
+
+.text-bottom-centered {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 50%;
+  	transform: translate(-50%, -15%);
+}
+
+.strapline {
+	font-size: 2.5em;
+	font-weight: 600;
+	white-space: nowrap;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+/* Bootstrap Footer Customisation */
+.footer {
+	position: relative;
+	bottom: 0;
+	height: 170px;
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.footerimg {
+	padding-bottom: 10px;
+}
+
+.footerhdr {
+	font-size: 1.2em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #36512d
+}
+
+.footercontent {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.footer-nav-link {
+	font-size: 1.0em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.footer-mail-link {
+	font-size: 1.0em;
+	font-weight: 400;
+}
+
+.footer-non-link {
+	font-size: 1.0em;
+	font-weight: 400;
+	cursor: default;
+}
+
+.small-footer-link {
+	font-size: 0.8em;
+	white-space: nowrap;	
+	font-weight: 400;
+}
+
+.small-non-link {
+	font-size: 0.8em;
+	white-space: nowrap;	
+	font-weight: 400;
+	cursor: default;
+}
+
+/* price list titles */
+.price-title {
+	font-size: 0.9em;
+    padding: 5px;
+}
+
+/* enquiry/booking form errors */
+.has-error .help-block {
+    color: red;
+}
+
+/* enquiry/booking form submit button */
+	.btn-contact-transparent {
+		background: transparent;
+		color: #36512d;
+		-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+		-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+		-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+		transition: background .2s ease-in-out, border .2s ease-in-out;
+		border: 2px solid #36512d;
+	}
+	.btn-contact-transparent:focus {
+		color: #ccffcc;
+	}	
+	.btn-contact-transparent:hover {
+		color: #36512d;
+		background-color: #ccffcc;
+	}
+	.btn-contact-transparent:active {
+		color: #36512d;
+	}
